@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+	<children>
+		<MenuBar VBox.vgrow="NEVER">
+			<menus>
+				<Menu mnemonicParsing="false" text="File">
+					<items>
+						<MenuItem fx:id="menuItemImport" mnemonicParsing="false" text="Import" />
+						<MenuItem fx:id="menuItemExport" mnemonicParsing="false" text="Export" />
+						<MenuItem fx:id="menuItemQuit" mnemonicParsing="false" text="Quit" />
+					</items>
+				</Menu>
+            <Menu mnemonicParsing="false" text="Add Vehicle">
+              <items>
+                <MenuItem fx:id="menuItemAdd" mnemonicParsing="false" text="Add" />
+              </items>
+            </Menu>
+			</menus>
+		</MenuBar>
+		<BorderPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="SOMETIMES">
+			<center>
+				<ScrollPane fx:id="scrollPaneVehicleList" fitToWidth="true" prefViewportHeight="200.0" prefViewportWidth="200.0" BorderPane.alignment="CENTER">
+					<content>
+						<TilePane fx:id="tilePaneVehicleItemList" />
+					</content>
+				</ScrollPane>
+			</center>
+			<top>
+				<ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+					<items>
+                  <Label text="Filter:" />
+						<RadioButton fx:id="radioButtonAll" mnemonicParsing="false" selected="true" text="All" />
+						<RadioButton fx:id="radioButtonCar" mnemonicParsing="false" text="Car" />
+						<RadioButton fx:id="radioButtonVan" mnemonicParsing="false" text="Van" />
+						<Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+						<Label text="Seat number" />
+						<ChoiceBox fx:id="choiceBoxSeatNumber" prefWidth="150.0" />
+						<Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="0.0" />
+						<Label text="Status" />
+						<ChoiceBox fx:id="choiceBoxStatus" prefWidth="150.0" />
+						<TextField fx:id="textFieldModel" promptText="model" />
+					</items>
+				</ToolBar>
+			</top>
+		</BorderPane>
+		<HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" VBox.vgrow="NEVER">
+			<children>
+				<Label maxHeight="1.7976931348623157E308" maxWidth="-1.0" text="Left status" HBox.hgrow="ALWAYS">
+					<font>
+						<Font size="11.0" fx:id="x3" />
+					</font>
+					<textFill>
+						<Color blue="0.625" green="0.625" red="0.625" fx:id="x4" />
+					</textFill>
+				</Label>
+				<Pane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+				<Label font="$x3" maxWidth="-1.0" text="Right status" textFill="$x4" HBox.hgrow="NEVER" />
+			</children>
+			<padding>
+				<Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+			</padding>
+		</HBox>
+	</children>
+</VBox>
