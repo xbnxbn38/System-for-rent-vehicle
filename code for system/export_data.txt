@@ -1,0 +1,15 @@
+C_2015MercedesBenzSprinter:2015:MercedesBenz:Sprinter:van:0:currently available for rent:V_64WMSB.PNG:This is van 5.
+C_2014MercedesBenzSprinter:2014:MercedesBenz:Sprinter:van:0:currently available for rent:V_63WMSB.PNG:This is van 4.
+C_2012MercedesBenzSprinter:2012:MercedesBenz:Sprinter:van:0:currently available for rent:V_62WMSB.PNG:This is van 3.
+C_2011MercedesBenzSprinter:2011:MercedesBenz:Sprinter:van:0:currently available for rent:V_61WMSB.PNG:This is van 2.
+C_2010MercedesBenzSprinter:2010:MercedesBenz:Sprinter:van:0:currently available for rent:V_60WMSB.PNG:This is van 1.
+C_2019ToyotaCorolla:2019:Toyota:Corolla:car:7:currently available for rent:C_109CRSB.PNG:This is car 10.
+C_2018ToyotaCorolla:2018:Toyota:Corolla:car:7:currently available for rent:C_108CRSB.PNG:This is car 9.
+C_2017ToyotaCorolla:2017:Toyota:Corolla:car:4:currently available for rent:C_106CRSB.PNG:This is car 8.
+C_2016ToyotaCorolla:2016:Toyota:Corolla:car:7:currently available for rent:C_106CRSB.PNG:This is car 7.
+C_2015ToyotaCorolla:2015:Toyota:Corolla:car:7:currently available for rent:C_105CRSB.PNG:This is car 6.
+C_2014ToyotaCorolla:2014:Toyota:Corolla:car:4:currently available for rent:C_104CRSB.PNG:This is car 5.
+C_2013ToyotaCorolla:2013:Toyota:Corolla:car:4:currently available for rent:C_103CRSB.PNG:This is car 4.
+C_2012ToyotaCorolla:2012:Toyota:Corolla:car:7:currently available for rent:C_102CRSB.PNG:This is car 3.
+C_2011ToyotaCorolla:2011:Toyota:Corolla:car:4:currently available for rent:C_101CRSB.PNG:This is car 2.
+C_2010ToyotaCorolla:2010:Toyota:Corolla:car:7:currently available for rent:C_100CRSB.PNG:This is car 1.
